@@ -5,7 +5,7 @@ import TaskList from '../components/TaskList';
 import axios from 'axios';
 import { useTheme } from '../context/ThemeContext';
 
-const API_URL = 'https://taskmanager-iuc1.onrender.com';
+const API_URL = 'https://taskmanager-iuc1.onrender.com/api';
 
 const ThemeToggle = () => {
   const { theme, toggleTheme } = useTheme();
