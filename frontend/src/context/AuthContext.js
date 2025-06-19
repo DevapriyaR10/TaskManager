@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-const API_URL = 'https://taskmanager-iuc1.onrender.com';
+const API_URL = 'https://taskmanager-iuc1.onrender.com/api';
 
 
 const authReducer = (state, action) => {
